@@ -1,0 +1,85 @@
+// @font-face {
+//    font-family:'InBubbleLight';
+//    src:url('https://hdraws.com/font/InBubbleLight.ttf');
+// }
+
+:root {
+
+   --rgb-white: 255,255,255;
+   --rgb-black: 0,0,0;
+   --color-white: rgb(var(--rgb-white));
+   --color-black: rgb(var(--rgb-black));
+
+   --rgb-main-light: 224, 230, 245;
+   --rgb-main-medium: 47, 104, 230;
+   --rgb-main-dark: 0, 39, 127;
+
+   --color-main-light: rgb(var(--rgb-main-light));
+   --color-main-medium: rgb(var(--rgb-main-medium));
+   --color-main-dark: rgb(var(--rgb-main-dark));
+
+   --rgb-neutral-lighter: 241, 241, 243;
+   --rgb-neutral-light: 216, 216, 220;
+   --rgb-neutral-medium: 138, 138, 146;
+   --rgb-neutral-dark: 53, 53, 68;
+
+   --color-neutral-lighter: rgb(var(--rgb-neutral-lighter));
+   --color-neutral-light: rgb(var(--rgb-neutral-light));
+   --color-neutral-medium: rgb(var(--rgb-neutral-medium));
+   --color-neutral-dark: rgb(var(--rgb-neutral-dark));
+
+   --rgb-commit-light: 219, 243, 208;
+   --rgb-commit-medium: 120, 234, 64;
+   --rgb-commit-dark: 54, 138, 14;
+
+   --color-commit-light: rgb(var(--rgb-commit-light));
+   --color-commit-medium: rgb(var(--rgb-commit-medium));
+   --color-commit-dark: rgb(var(--rgb-commit-dark));
+
+   --rgb-cancel-light: 255, 227, 227;
+   --rgb-cancel-medium: 241, 46, 68;
+   --rgb-cancel-dark: 136, 0, 15;
+
+   --color-cancel-light: rgb(var(--rgb-cancel-light));
+   --color-cancel-medium: rgb(var(--rgb-cancel-medium));
+   --color-cancel-dark: rgb(var(--rgb-cancel-dark));
+
+   --rgb-warning-light: 255, 248, 179;
+   --rgb-warning-medium: 247, 227, 44;
+   --rgb-warning-dark: 126, 108, 0;
+
+   --color-warning-light: rgb(var(--rgb-warning-light));
+   --color-warning-medium: rgb(var(--rgb-warning-medium));
+   --color-warning-dark: rgb(var(--rgb-warning-dark));
+
+
+
+   --header-height: 3rem;
+   --button-height: 2em;
+   --border-width:2px;
+
+   --radius:0.2rem;
+
+
+
+   --font-sans: 'Trebuchet MS', Tahoma, sans-serif;
+   --font-serif: Georgia, 'Lucida Bright', serif;
+   --font-monospace: Consolas, Monaco, monospace;
+   --font-cursive: InBubbleLight, cursive;
+
+   --font-heading:var(--font-sans);
+   --font-body:var(--font-sans);
+}
+
+$color-codes: (
+   main:1,
+   neutral:1,
+   commit:1,
+   cancel:1,
+   warning:1,
+);
+$mod-codes: (
+   light:1,
+   medium:1,
+   dark:1,
+);

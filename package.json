@@ -1,0 +1,21 @@
+{
+  "name": "core_css",
+  "version": "1.0.0",
+  "description": "A css framework for web and app development.",
+  "main": "index.js",
+  "scripts": {
+    "lite": "lite-server",
+    "systems": "node-sass --watch responsive_systems/scss -o responsive_systems/css --output-style compact",
+    "sass:build": "node-sass core_css/src -o core_css/dist --output-style compact"
+  },
+  "author": "Hamilton Cline",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "node-sass": "^8.0.0",
+    "terser": "^5.16.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
