@@ -57,8 +57,10 @@ The core.css file combines the cosmetics and a layout system into one larger fil
 
 ### Distributions
 
-- **[Core.css](https://cdn.jsdelivr.net/gh/bronkula/apptools@1.0.0/dist/core.css)**
-- **[Core_lite.css](https://cdn.jsdelivr.net/gh/bronkula/apptools@1.0.0/dist/core_lite.css)**
+**v1.0.0**
+
+- **[Core.css](https://cdn.jsdelivr.net/gh/bronkula/core_css@1.0.0/dist/core.css)**
+- **[Core_lite.css](https://cdn.jsdelivr.net/gh/bronkula/core_css@1.0.0/dist/core_lite.css)**
 
 ### Demo
 
