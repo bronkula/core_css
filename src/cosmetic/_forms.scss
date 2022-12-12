@@ -224,10 +224,7 @@
 		color:var(--color-neutral-medium);
 	}
 	&-button {
-		@extend .btn;
-		@extend .btn.solid;
-		@extend .btn.solid.neutral;
-		@extend .btn.full;
+		@extend .btn,.solid,.neutral,.full;
 		&:active {
 			background-color:var(--color-main-light);
 		}

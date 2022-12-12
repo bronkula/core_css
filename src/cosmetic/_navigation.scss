@@ -52,8 +52,8 @@
         nav>ul {
             display:flex;
             list-style-type:none;
-            margin:0;
-            padding:0;
+            margin-block:0;
+            padding-inline-start:0;
         }
         nav:last-child {
             padding-right:0.5em;
@@ -96,13 +96,13 @@
     }
 
     &.stretch {
-        @extend .nav.flex;
+        @extend .nav,.flex;
 
         li { flex: 1 1 auto; text-align:center; }
     }
 
     &.pills {
-        @extend .nav.inline;
+        @extend .nav,.inline;
 
         a,span {
             border-radius:1em;
@@ -112,7 +112,7 @@
     }
 
     &.tabs {
-        @extend .nav.flex;
+        @extend .nav,.flex;
         --border-color:rgb(var(--rgb-main-light));
 
         ul {
@@ -140,7 +140,7 @@
     }
 
     &.material {
-        @extend .nav.stretch;
+        @extend .nav,.stretch;
 
         ul {
             border-bottom: var(--border-size) solid var(--color-main-light);
@@ -174,7 +174,7 @@
     }
 
     &.crumbs {
-        @extend .nav.inline;
+        @extend .nav,.inline;
 
         ul { display:flex; }
 

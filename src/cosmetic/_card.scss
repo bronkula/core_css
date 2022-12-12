@@ -40,7 +40,7 @@
         color:var(--color-black);
     }
 
-    @extend .card.white;
+    @extend .card,.white;
 
 
     &.light {
@@ -81,7 +81,7 @@
     }
 
     &.soft {
-        @extend .card.shadow-large;
+        @extend .card,.shadow-large;
         border-radius: 0.3rem;
     }
 

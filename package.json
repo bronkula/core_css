@@ -5,17 +5,15 @@
   "main": "index.js",
   "scripts": {
     "lite": "lite-server",
-    "systems": "node-sass --watch responsive_systems/scss -o responsive_systems/css --output-style compact",
-    "sass:build": "node-sass core_css/src -o core_css/dist --output-style compact"
+    "systems": "sass -w responsive_systems/scss:responsive_systems/css --style=compressed",
+    "sass:build": "sass -w ./src:./dist --style=compressed"
   },
   "author": "Hamilton Cline",
   "license": "ISC",
   "dependencies": {
-    "concurrently": "^7.6.0",
-    "node-sass": "^8.0.0",
-    "terser": "^5.16.1"
+    "sass": "^1.56.0"
   },
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.0"
   }
 }
